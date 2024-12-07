@@ -1100,6 +1100,6 @@ userstyles:
     categories: [ productivity ]
     color: green
     readme:
-      app-link: https://index-education.net
+      app-link: https://demo.index-education.net
     current-maintainers: [ *Labfox ]
 # yaml-language-server: $schema=userstyles.schema.json

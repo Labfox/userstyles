@@ -101,7 +101,7 @@
       @return: ~"@{red}, @{green}, @{blue}";
     }
 
-  .theme-scales(@name, @firstbase) {
+    .theme-scales(@name, @firstbase) {
       --@{name}: @firstbase;
       --@{name}-rgb: @{.rgb(@firstbase)};
       --@{name}-scaleMoins50: @{darken(@firstbase, 50%)};
@@ -115,23 +115,23 @@
       --@{name}-scalePlus80: @{lighten(@firstbase, 80%)};
     }
 
-  * {
-    .theme-scales(theme-neutre-light, lighten(@base, 10%));
-    .theme-scales(theme-neutre-legere, lighten(@base, 20%));
-    .theme-scales(theme-neutre-legere2, lighten(@base, 30%));
-    .theme-scales(theme-neutre-claire, lighten(@base, 35%));
-    .theme-scales(theme-neutre-moyen1, lighten(@base, 50%));
-    .theme-scales(theme-neutre-moyen2, lighten(@base, 60%));
-    .theme-scales(theme-neutre-moyen3, lighten(@base, 70%));
-    .theme-scales(theme-neutre-foncee, lighten(@base, 80%));
-    .theme-scales(theme-neutre-sombre, lighten(@base, 90%));
+    * {
+      .theme-scales(theme-neutre-light, lighten(@base, 10%));
+      .theme-scales(theme-neutre-legere, lighten(@base, 20%));
+      .theme-scales(theme-neutre-legere2, lighten(@base, 30%));
+      .theme-scales(theme-neutre-claire, lighten(@base, 35%));
+      .theme-scales(theme-neutre-moyen1, lighten(@base, 50%));
+      .theme-scales(theme-neutre-moyen2, lighten(@base, 60%));
+      .theme-scales(theme-neutre-moyen3, lighten(@base, 70%));
+      .theme-scales(theme-neutre-foncee, lighten(@base, 80%));
+      .theme-scales(theme-neutre-sombre, lighten(@base, 90%));
 
 
-    .theme-scales(theme-sombre, @accent-color);
-    .theme-scales(theme-foncee, @accent-color);
-    .theme-scales(theme-moyen1, darken(@accent-color, 40%));
-    .theme-scales(theme-claire, darken(@accent-color, 30%));
-  }
+      .theme-scales(theme-sombre, @accent-color);
+      .theme-scales(theme-foncee, @accent-color);
+      .theme-scales(theme-moyen1, darken(@accent-color, 40%));
+      .theme-scales(theme-claire, darken(@accent-color, 30%));
+    }
 
 
     * {
@@ -205,61 +205,61 @@
     }
 
 
-  .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) {
-    background-color: @surface0;
-  }
+    .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) {
+      background-color: @surface0;
+    }
 
-  .objetBandeauEntete_secondmenu {
-    background-color: @surface1;
-  }
+    .objetBandeauEntete_secondmenu {
+      background-color: @surface1;
+    }
 
-  .VoileOpaque50 {
-    background-color: @base;
-  }
+    .VoileOpaque50 {
+      background-color: @base;
+    }
 
-  .EspaceIndex .switch.colored-label input + span + span, .EspaceIndex .iecb.colored-label input + span + span {
-    color: @accent-color;
-  }
+    .EspaceIndex .switch.colored-label input + span + span, .EspaceIndex .iecb.colored-label input + span + span {
+      color: @accent-color;
+    }
 
-  .objetBandeauEntete_secondmenu .menu-principal_niveau1 .item-menu_niveau1.selected {
-    background-color: @surface1;
-  }
+    .objetBandeauEntete_secondmenu .menu-principal_niveau1 .item-menu_niveau1.selected {
+      background-color: @surface1;
+    }
 
-  .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) .objetBandeauEntete_boutons span i, .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) .objetBandeauEntete_boutons div.objetBandeauEntete_boutons_ifc i{
-    color: @accent-color;
-  }
+    .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) .objetBandeauEntete_boutons span i, .objetbandeauentete_global .objetBandeauEntete_menu:not(.ongletLudique) .objetBandeauEntete_boutons div.objetBandeauEntete_boutons_ifc i{
+      color: @accent-color;
+    }
 
-  .item-menu_niveau0 {
-    color: @text;
-  }
+    .item-menu_niveau0 {
+      color: @text;
+    }
 
-  .objetBandeauEntete_secondmenu .menu-principal_niveau2 .item-menu_niveau2:hover{
-    background-color: @surface1;
-  }
+    .objetBandeauEntete_secondmenu .menu-principal_niveau2 .item-menu_niveau2:hover{
+      background-color: @surface1;
+    }
 
-  .objetBandeauEntete_secondmenu .menu-principal_niveau2 {
-    background: @surface0;
-  }
+    .objetBandeauEntete_secondmenu .menu-principal_niveau2 {
+      background: @surface0;
+    }
 
-  .menu-principal_niveau1 {
-    background: @surface1;
-  }
+    .menu-principal_niveau1 {
+      background: @surface1;
+    }
 
-  .menu-principal_niveau1 .item-menu_niveau1:hover {
-    background-color: darken(@accent-color, 70%);
-  }
+    .menu-principal_niveau1 .item-menu_niveau1:hover {
+      background-color: darken(@accent-color, 70%);
+    }
 
-  .ObjetBandeauEspace {
-    color: @text;
-  }
+    .ObjetBandeauEspace {
+      color: @text;
+    }
 
-  .as-info {
-    color: @text;
-  }
+    .as-info {
+      color: @text;
+    }
 
-  .footer-wrapper .footer-toggler {
-    color: @text;
-  }
+    .footer-wrapper .footer-toggler {
+      color: @text;
+    }
 
 
 
