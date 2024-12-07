@@ -154,6 +154,8 @@ collaborators:
     url: https://github.com/steinuil
   - &husjon
     url: https://github.com/husjon
+  - &Labfox
+    url: https://github.com/Labfox
 
 userstyles:
   advent-of-code:
@@ -1091,4 +1093,13 @@ userstyles:
           answer: "It's available in case you have an OLED display. If you have one, you might want to enable this."
     current-maintainers: [*isabelroses, *uncenter]
     past-maintainers: [*elkrien]
+  pronote:
+    name: Pronote
+    # Up to 3 categories are allowed, and having at least one is required.
+    # The first category is considered the "primary" category and impacts where the userstyle appears on the README.
+    categories: [ productivity ]
+    color: green
+    readme:
+      app-link: https://index-education.net
+    current-maintainers: [ *Labfox ]
 # yaml-language-server: $schema=userstyles.schema.json
